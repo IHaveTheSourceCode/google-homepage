@@ -15,44 +15,50 @@
         <div class = "list_elements">
             <ul>
                 <li>
-                    <text class = "clickable_text">Gmail</text>
+                    <a href="#" class = "clickable_text">Gmail</a>
                 </li>
                 <li>
-                    <text class = "clickable_text">Images</text>
+                    <a href="#" class = "clickable_text">Images</a>
                 </li>
                 <li>
-                    <img id = "apps_icon" src = "https://icon-library.com/images/google-apps-icon-png/google-apps-icon-png-28.jpg" title = "Google apps" alt="Google apps">
+                    <a href="#"><img id = "apps_icon" src = "https://icon-library.com/images/google-apps-icon-png/google-apps-icon-png-28.jpg" title = "Google apps" alt="Google apps"></a>
                 </li>
                 <li>
-                    <button id = "sign_in_button">Sign in</button>
+                    <a href="https://github.com/IHaveTheSourceCode"><button id = "sign_in_button">My GitHub</button></a>
                 </li>
             </ul>
         </div>
-        <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div class = "search_bar">
+        <img src = "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="google_img">
+        <div class = "under_google">
             <span class="material-icons-outlined" id = "magnifier">search</span>
-            <input type = "search" style="padding-top:25px">
+            <input class="search_bar" type = "search" style="padding-top:20px">
         </div>
         <div class = "buttons">
             <button>Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <a href="https://www.google.com/search?q=kittens&source=lnms&tbm=isch&sa=X&ved=2ahUKEwiB37-G297xAhWl_CoKHWPeB7YQ_AUoAXoECAEQAw&biw=863&bih=775" target=_blank><button>I'm Feeling Lucky</button></a>
         </div>
-        <text>Google offered in: <text id = "language_text">polski</text></text>
+        <div class="language_offerings">
+            <text>Google offered in: <a href="http://www.arwen-undomiel.com/elvish/phrases.html" target=_blank id = "language_text">elvish</a></text>
+        </div>
     </body>
     <footer>
         <div class = "gray_container">
-            <div>
-                <text id = "border_footer">Poland</text>
-                <hr>
+            <div id="footer_first">
+                <a href="https://lotr.fandom.com/wiki/Rivendell" target=_blank style="padding-left: 20px" class="clickable_text">Rivendell</a>
             </div>
-            <div>
-                <text>About</text>
-                <text>Advertising</text>
-                <text>Business</text>
-                <text>How Search works</text>
-                <text>Privacy</text>
-                <text>Terms</text>
-                <text>Settings</text>
+            <hr>
+            <div class ="footer_second">
+                <div class="spacing_text">
+                    <a href="#" class="clickable_text">About</a>
+                    <a href="#" class="clickable_text">Advertising</a>
+                    <a href="https://www.youtube.com/watch?v=IdS3WVYr834" target=_blank class="clickable_text">Business</a>
+                    <a href="#" class="clickable_text">How Search works</a>
+                </div>
+                <div class="spacing_text">
+                    <a href="#" class="clickable_text">Privacy</a>
+                    <a href="#" class="clickable_text">Terms</a>
+                    <a href="#" class="clickable_text">Settings</a>
+                </div>
             </div>
         </div>
     </footer>

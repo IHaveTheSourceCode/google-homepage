@@ -41,6 +41,8 @@ li:not(:last-child){
     opacity: 0.8;
 }
 .clickable_text{
+    color: inherit;
+    text-decoration: none;
     font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
 }
@@ -51,15 +53,18 @@ li:not(:last-child){
 #sign_in_button{
     background-color:#1a73e8;;
     border: none;
-    padding: 8px 20px;
+    width: 96px;
+    height: 36px;
+    padding: 0px 0px 2px 0px;
     font-size: 0.9em;
     border: 1px solid transparent;
-    border-radius: 6px; 
+    border-radius: 5px; 
     color: white;
     cursor: pointer;
 }
 #sign_in_button:hover{
     opacity: 0.85;
+    box-shadow: 0px 0.5px 2px gray;
 }
 button{
     cursor: pointer;
@@ -73,11 +78,9 @@ button{
     margin-top: 15px;
 }
 button:hover{
-    border: 2px solid rgba(232, 233, 232, 0.322);
-    border-radius: 3.5px;
-    border-color:rgba(226, 226, 226, 0.322);
+    border: 1px solid rgb(209, 207, 207);
+    border-radius: 4px;
     opacity: 1;
-    box-shadow: 0px 0.2px 1.0px rgb(146, 135, 135);
 }
 .buttons{
     display:inline-block;
@@ -99,21 +102,84 @@ input:hover{
 input:focus{
     border-color: #bdbdbd;
 }
-.search_bar{
+.under_google{
+    min-width: 525px;
+    width: 40%;
+    max-width: 600px;
+    height: 90%;
     display: inline-block;
     margin: auto;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 1px solid #d9dcdf;
+    border-radius: 50px;
+}
+.under_google:hover, :focus{
+   box-shadow: 0px 1px 5px rgb(197, 195, 195);
 }
 .gray_container{
     background-color:#F2F2F2;
+    width:100%;
 }
 hr{
     color: #dadce0;
 }
 #magnifier{
     opacity: 0.3;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    font-size: 1.3em;
+}
+footer{
+    background-color: #eeeeee;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 10px;
+    font-size: 1.1em;
+    opacity: 0.6;
+    padding-bottom: 10px;
+}
+#border_footer{
+    padding-left: 20px;
+}
+#footer_first{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1.05em;
+    opacity: 0.9;
+}
+hr{
+    position: relative;
+    left: -10px;
+    width: 150%;
+    opacity: 0.5;
+}
+.language_offerings{
+    font-size: 0.85em;
+    margin: auto;
+    padding-top: 2em;
+}
+.footer_second{
+    margin-left: 5%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5%;
+    opacity: 0.9;
+}
+.spacing_text .clickable_text{
     padding: 10px;
-    border-left: 1px solid black;
-    border-radius: 100px;
+}
+.search_bar {
+    width: 90%;
+    font-size: 1.5em;
+    border: none;
+    box-shadow: none;
+}
+.google_img{
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
