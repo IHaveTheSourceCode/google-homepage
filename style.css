@@ -1,55 +1,68 @@
 div{
     font-family: 'Roboto', sans-serif;
 }
+
 #language_text{
 color: blue;
 }
+
 #language_text:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
 body{
     display:grid;
 }
+
 img{
     margin: auto;
 }
+
 input{
     width: 50%;
     margin: auto;
 }
+
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     float: right;  
 }
+
 li{
     display: inline;
 }
+
 li:not(:last-child){
     display: inline;
     margin-left: 0px;
-    margin-right: 20px; 
+    ma
+    rgin-right: 20px; 
 }
 #apps_icon{
     width: 16px;
     height: 16px;
     cursor: pointer;
 }
+
 #apps_icon:hover{
     opacity: 0.8;
 }
+
 .clickable_text{
     color: inherit;
     text-decoration: none;
     font-size: 0.8em;
     font-family: 'Roboto', sans-serif;
 }
+
 .clickable_text:hover{
     text-decoration: underline;
     cursor: pointer;
 }
+
 #sign_in_button{
     background-color:#1a73e8;;
     border: none;
@@ -62,10 +75,12 @@ li:not(:last-child){
     color: white;
     cursor: pointer;
 }
+
 #sign_in_button:hover{
     opacity: 0.85;
     box-shadow: 0px 0.5px 2px gray;
 }
+
 button{
     cursor: pointer;
     background-color: #f8f6f6;
@@ -77,16 +92,19 @@ button{
     margin-right: 10px;
     margin-top: 15px;
 }
+
 button:hover{
     border: 1px solid rgb(209, 207, 207);
     border-radius: 4px;
     opacity: 1;
 }
+
 .buttons{
     display:inline-block;
     margin: auto;
     margin-top: 1em;  
 }
+
 input{
     border: none;
     padding: 10px;
@@ -96,12 +114,15 @@ input{
     /*border:1px solid #eaeaea;*/
     outline: none;
 }
+
 input:hover{
     border-color: #bdbdbd;
 }
+
 input:focus{
     border-color: #bdbdbd;
 }
+
 .under_google{
     min-width: 525px;
     width: 40%;
@@ -112,22 +133,27 @@ input:focus{
     border: 1px solid #d9dcdf;
     border-radius: 50px;
 }
+
 .under_google:hover, :focus{
    box-shadow: 0px 1px 5px rgb(197, 195, 195);
 }
+
 .gray_container{
     background-color:#F2F2F2;
     width:100%;
 }
+
 hr{
     color: #dadce0;
 }
+
 #magnifier{
     opacity: 0.3;
     padding-left: 15px;
     padding-bottom: 15px;
     font-size: 1.3em;
 }
+
 footer{
     background-color: #eeeeee;
     padding: 5px;
@@ -140,26 +166,31 @@ footer{
     opacity: 0.6;
     padding-bottom: 10px;
 }
+
 #border_footer{
     padding-left: 20px;
 }
+
 #footer_first{
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 1.05em;
     opacity: 0.9;
 }
+
 hr{
     position: relative;
     left: -10px;
     width: 150%;
     opacity: 0.5;
 }
+
 .language_offerings{
     font-size: 0.85em;
     margin: auto;
     padding-top: 2em;
 }
+
 .footer_second{
     margin-left: 5%;
     justify-content: space-around;
@@ -170,15 +201,18 @@ hr{
     padding-right: 5%;
     opacity: 0.9;
 }
+
 .spacing_text .clickable_text{
     padding: 10px;
 }
+
 .search_bar {
     width: 90%;
     font-size: 1.5em;
     border: none;
     box-shadow: none;
 }
+
 .google_img{
     padding-top: 50px;
     padding-bottom: 20px;
